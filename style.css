@@ -1,16 +1,30 @@
-body{
-    background-color: aquamarine;
+#container{
+    background-color: #EEEEEE;
+    width: 100VW;
+    height: 50vh;
+
+    /* display flex is the keywod to setup autolayout */
+    display: flex;
+    /*what. direction the children will face */
+    flex-direction: row;
+
+    /* we center on both axis */
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
 
 }
 
-p{
-
-color :blanchedalmond;
-font-size: 20px;
-
+.box{ 
+    background-color: #EEE965;
+    width: 200px;
+    height: 200px;
 }
 
-.black-bg{
-    background-color: brown;
-    
-}
+.card{
+    background-color: #C9E39A;
+    padding:16px;
+    border-radius: 8px;
+    }
